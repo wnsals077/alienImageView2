@@ -1,0 +1,342 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C53E97D7224C972E00651707 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C53E97D6224C972E00651707 /* AppDelegate.swift */; };
+		C53E97D9224C972E00651707 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C53E97D8224C972E00651707 /* ViewController.swift */; };
+		C53E97DC224C972E00651707 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C53E97DA224C972E00651707 /* Main.storyboard */; };
+		C53E97DF224C972E00651707 /* alienImageView2.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C53E97DD224C972E00651707 /* alienImageView2.xcdatamodeld */; };
+		C53E97E1224C972E00651707 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C53E97E0224C972E00651707 /* Assets.xcassets */; };
+		C53E97E4224C972E00651707 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C53E97E2224C972E00651707 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C53E97D3224C972E00651707 /* alienImageView2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = alienImageView2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C53E97D6224C972E00651707 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C53E97D8224C972E00651707 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C53E97DB224C972E00651707 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C53E97DE224C972E00651707 /* alienImageView2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = alienImageView2.xcdatamodel; sourceTree = "<group>"; };
+		C53E97E0224C972E00651707 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C53E97E3224C972E00651707 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C53E97E5224C972E00651707 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C53E97D0224C972E00651707 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C53E97CA224C972E00651707 = {
+			isa = PBXGroup;
+			children = (
+				C53E97D5224C972E00651707 /* alienImageView2 */,
+				C53E97D4224C972E00651707 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C53E97D4224C972E00651707 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C53E97D3224C972E00651707 /* alienImageView2.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C53E97D5224C972E00651707 /* alienImageView2 */ = {
+			isa = PBXGroup;
+			children = (
+				C53E97D6224C972E00651707 /* AppDelegate.swift */,
+				C53E97D8224C972E00651707 /* ViewController.swift */,
+				C53E97DA224C972E00651707 /* Main.storyboard */,
+				C53E97E0224C972E00651707 /* Assets.xcassets */,
+				C53E97E2224C972E00651707 /* LaunchScreen.storyboard */,
+				C53E97E5224C972E00651707 /* Info.plist */,
+				C53E97DD224C972E00651707 /* alienImageView2.xcdatamodeld */,
+			);
+			path = alienImageView2;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C53E97D2224C972E00651707 /* alienImageView2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C53E97E8224C972E00651707 /* Build configuration list for PBXNativeTarget "alienImageView2" */;
+			buildPhases = (
+				C53E97CF224C972E00651707 /* Sources */,
+				C53E97D0224C972E00651707 /* Frameworks */,
+				C53E97D1224C972E00651707 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = alienImageView2;
+			productName = alienImageView2;
+			productReference = C53E97D3224C972E00651707 /* alienImageView2.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C53E97CB224C972E00651707 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = D7703_25;
+				TargetAttributes = {
+					C53E97D2224C972E00651707 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = C53E97CE224C972E00651707 /* Build configuration list for PBXProject "alienImageView2" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C53E97CA224C972E00651707;
+			productRefGroup = C53E97D4224C972E00651707 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C53E97D2224C972E00651707 /* alienImageView2 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C53E97D1224C972E00651707 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C53E97E4224C972E00651707 /* LaunchScreen.storyboard in Resources */,
+				C53E97E1224C972E00651707 /* Assets.xcassets in Resources */,
+				C53E97DC224C972E00651707 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C53E97CF224C972E00651707 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C53E97DF224C972E00651707 /* alienImageView2.xcdatamodeld in Sources */,
+				C53E97D9224C972E00651707 /* ViewController.swift in Sources */,
+				C53E97D7224C972E00651707 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C53E97DA224C972E00651707 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C53E97DB224C972E00651707 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C53E97E2224C972E00651707 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C53E97E3224C972E00651707 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C53E97E6224C972E00651707 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C53E97E7224C972E00651707 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C53E97E9224C972E00651707 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = alienImageView2/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-01860317.alienImageView2";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C53E97EA224C972E00651707 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = alienImageView2/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-01860317.alienImageView2";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C53E97CE224C972E00651707 /* Build configuration list for PBXProject "alienImageView2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C53E97E6224C972E00651707 /* Debug */,
+				C53E97E7224C972E00651707 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C53E97E8224C972E00651707 /* Build configuration list for PBXNativeTarget "alienImageView2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C53E97E9224C972E00651707 /* Debug */,
+				C53E97EA224C972E00651707 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		C53E97DD224C972E00651707 /* alienImageView2.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				C53E97DE224C972E00651707 /* alienImageView2.xcdatamodel */,
+			);
+			currentVersion = C53E97DE224C972E00651707 /* alienImageView2.xcdatamodel */;
+			path = alienImageView2.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = C53E97CB224C972E00651707 /* Project object */;
+}
